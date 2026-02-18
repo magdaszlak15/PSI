@@ -1,5 +1,7 @@
-przelicz_walute = function(kwota, kurs){
-  return(kwota*kurs)
+przelicz_walute = function(kwota, kurs = 4.32){
+  wynik = kwota*kurs
+  return(wynik)
   
 }
-przelicz_walute(100, 4.32)
+przelicz_walute(100)
+przelicz_walute(100, 4.50)
